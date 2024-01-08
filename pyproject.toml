@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "ytdlplist"
+version = "0.1.0"
+description = "Download 1 or more YouTube playlists in your desired format with rate limiting prevention and optional sound effects."
+authors = ["DJ Stomp <stompzone@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+PyAudio = "^0.2.14"
+yt-dlp = "^2023.12.30"
+Wave = "^0.0.2"
+colorama = "^0.4.6"
+
+[tool.poetry.group.dev.dependencies]
+twine = "^4.0.2"
+pytest = "^7.4.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+start = "ytdlplist.ytdlplist:main"

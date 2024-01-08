@@ -1,0 +1,29 @@
+# Cache files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Poetry cache
+.poetry-cache/
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+
+# Playlist downloads
+Playlists/
+yt-dlp/
+
+# Playlist urls
+**/playlists.json
+**/playlists.json.bak
+
+# Backup files
+*.bak
+
+# Virtual environment
+venv/
+env/
+ENV/
