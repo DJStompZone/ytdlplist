@@ -2,23 +2,6 @@
 
 This project is a Python application that manages YouTube playlist downloads.
 
-## Project Structure
-
-```
-.gitignore
-pyproject.toml
-ytdlplist/
-	data/
-		playlists.template.json
-	sounds/
-        	<sound files>.wav
-	src/
-		constants.py
-		playlist_util.py
-		utils.py
-		ytdlplist.py
-```
-
 ## Prerequisites
 
 Poetry needs to be installed to install ytdlplist
@@ -52,6 +35,23 @@ Add your playlist urls to data/playlists.json, then run the application with:
 
 ```sh
 poetry run start
+```
+
+## Project Structure
+
+```
+.gitignore
+pyproject.toml
+ytdlplist/
+	data/
+		playlists.template.json
+		playlists.json
+	sounds/
+        	<sound files>.wav
+	constants.py
+	playlist_util.py
+	utils.py
+	ytdlplist.py
 ```
 
 ## Contributing
