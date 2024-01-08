@@ -42,10 +42,16 @@ poetry install
 
 ## Usage
 
-To run the application, navigate to the `src` directory and run the `ytdlplist.py` script:
+Create your playlists file:
 
 ```sh
-poetry run src/ytdlplist.py
+cp data/playlists.example.json data/playlists.json
+```
+
+Add your playlist urls to data/playlists.json, then run the application with:
+
+```sh
+poetry run start
 ```
 
 ## Contributing
@@ -54,4 +60,4 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 
 ## License
 
-[MIT](https://choosealicense.com/licenses/mit/)
+[MIT](LICENSE)
