@@ -11,7 +11,7 @@ ytdlplist/
 	data/
 		playlists.template.json
 	sounds/
-        <sound files>.wav
+        *.wav
 	src/
 		constants.py
 		playlist_util.py
