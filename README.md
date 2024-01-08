@@ -2,6 +2,9 @@
 
 This project is a Python application that manages YouTube playlist downloads.
 
+<img src="https://github.com/DJStompZone/ytdlplist/assets/85457381/fe0b684d-b1e6-4c24-a91c-4e9b53855fae">
+
+
 ## Prerequisites
 
 Poetry needs to be installed to install ytdlplist
